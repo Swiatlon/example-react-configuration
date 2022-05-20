@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# **React example configuration**
+##  Hello there ! 😃
+I share with you my react configuration with everything explained. Below, you can read about tools I used.
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/react.jpg)
+# **TOOLS :**
+>## ***Absolute imports (jsconfig.json)***
+It helps us avoid the hell nests -> ../../../../**God-where-IAM ?!?!!?**
+</br>
+*Compiler "learn" that our "src" folder work as base folder with imports.*  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/nests.jpg)
+</br>
 
-## Available Scripts
+>## ***ESLint (.eslintrc)***
+ESLint help us to get our **code cleaner** and more **protected** from errors.It works depending on created patterns, standards and rules.If something will be wrong in your code eslint will show you error or warning depending on configuration.
 
-In the project directory, you can run:
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/eslint.JPG)
+</br>
 
-### `npm start`
+>## ***Prettier (.prettierrc)***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this configuration I used the prettier to transform our code to cleaner. Prettier is using his schematics linked with ESLint rules. This tool will transform the code after the save.
+</br>
+***IMAGE AFTER CTRL + S (SAVE)***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/prettier.JPG)
 
-### `npm test`
+</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+>## ***Husky + lint-staged***
 
-### `npm run build`
+Husky saves us from commiting awful formmated code to the github.It formating code one more time before commit.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/husky.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>## ***Styled Components***
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Styled Components help us to style our components faster.
+</br>
+![IMAGE](https://github.com/IWiercik/example-react-configuration/blob/gh-pages-images/images/styledcomponents.JPG)
