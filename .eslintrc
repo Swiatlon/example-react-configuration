@@ -1,0 +1,16 @@
+{
+    "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],      
+    "plugins": ["prettier"],    //We tell him which code tool cleaner we are using.  Prettier/Beautify/etc..
+    "rules": {
+      "prettier/prettier": ["warn" /*off/warn/error */, { "singleQuote": true, "endOfLine": "auto", "printWidth": 120 }]  //Our rules like : ' ' instead " ", end of line after 120 chars
+    },
+    "env": {    // There we give him information about environment like : document.querySelector -> he will know that "document" is not our variable
+      "browser": true,  // passing it to false he will warn us that we dont have declared the variable "document"
+      "node": true,
+      "es6": true
+    },
+    "parser": "@babel/eslint-parser"    // the mechanism checking the code
+  }
+  
+
+  //Remember if you change the rules there you need to change also in .prettierrc
